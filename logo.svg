@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="309px" height="112px" viewBox="0 0 309 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(27.000000, 16.000000)">
+            <path d="M6.77489177,81.1961259 L39.6233766,81.1961259 L39.6233766,4.01937046 C39.6233766,2.34977605 38.2859205,1 36.6406926,1 L9.75757576,1 C8.11234785,1 6.77489177,2.34977605 6.77489177,4.01937046 L6.77489177,81.1961259 Z" id="Rectangle" stroke="#4578A1" stroke-width="2" fill="#D3E1EA"></path>
+            <path d="M0,82.0956416 L46,82.0956416" id="Line" stroke="#4578A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-2" stroke="#4578A1" stroke-width="2" fill="#FFFFFF" x="12.7489177" y="71.1380145" width="20.7012987" height="10.8619855" rx="2"></rect>
+            <g id="Group" transform="translate(11.748918, 10.852300)" fill="#FFFFFF">
+                <rect id="Rectangle-3" x="0" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy" x="8.36363636" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy-2" x="16.7272727" y="0" width="5.97402597" height="6.02905569"></rect>
+            </g>
+            <g id="Group-Copy" transform="translate(11.748918, 19.493947)" fill="#FFFFFF">
+                <rect id="Rectangle-3" x="0" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy" x="8.36363636" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy-2" x="16.7272727" y="0" width="5.97402597" height="6.02905569"></rect>
+            </g>
+            <g id="Group-Copy-2" transform="translate(11.748918, 28.336562)" fill="#FFFFFF">
+                <rect id="Rectangle-3" x="0" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy" x="8.36363636" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy-2" x="16.7272727" y="0" width="5.97402597" height="6.02905569"></rect>
+            </g>
+            <g id="Group-Copy-3" transform="translate(11.748918, 37.179177)" fill="#FFFFFF">
+                <rect id="Rectangle-3" x="0" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy" x="8.36363636" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy-2" x="16.7272727" y="0" width="5.97402597" height="6.02905569"></rect>
+            </g>
+            <g id="Group-Copy-4" transform="translate(11.748918, 45.820823)" fill="#FFFFFF">
+                <rect id="Rectangle-3" x="0" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy" x="8.36363636" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy-2" x="16.7272727" y="0" width="5.97402597" height="6.02905569"></rect>
+            </g>
+            <g id="Group-Copy-5" transform="translate(11.748918, 54.663438)" fill="#FFFFFF">
+                <rect id="Rectangle-3" x="0" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy" x="8.36363636" y="0" width="5.97402597" height="6.02905569"></rect>
+                <rect id="Rectangle-3-Copy-2" x="16.7272727" y="0" width="5.97402597" height="6.02905569"></rect>
+            </g>
+        </g>
+        <text id="Office-Building" font-family="Luminari-Regular, Luminari" font-size="25" font-weight="normal" fill="#4578A1">
+            <tspan x="101" y="92">Office Building</tspan>
+        </text>
+        <text id="Laravel" font-family="LucidaGrande-Bold, Lucida Grande" font-size="15" font-weight="bold" fill="#4578A1">
+            <tspan x="101" y="61">Laravel</tspan>
+        </text>
+    </g>
+</svg>
