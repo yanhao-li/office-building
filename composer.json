@@ -1,0 +1,21 @@
+{
+    "name": "yanhaoli/office-building",
+    "description": "office building is a multi tenancy package for laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "multitenancy", "tenancy"],
+    "authors": [
+        {
+            "name": "Yanhao Li",
+            "email": "hi@yanhaoli.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yanhaoli\\OfficeBuilding\\": "src/"
+        }
+    }
+}
