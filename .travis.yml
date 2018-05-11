@@ -5,14 +5,9 @@ php:
   - 7.2
   - nightly
 
-env:
-  matrix:
-    - COMPOSER_FLAGS="--prefer-lowest"
-    - COMPOSER_FLAGS=""
+sudo: false
 
-before_script:
-  - travis_retry composer self-update
-  - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist --dev
+install:
+  - travis_retry composer install --no-interaction --prefer-source
 
-script:
-  - vendor/bin/phpunit
+script: phpunit
