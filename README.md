@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.svg"/>
+  <img src="http://yanhaoli.com/office-building/logo.svg" />
 </p>
 
 # Office Building
