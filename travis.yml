@@ -1,0 +1,15 @@
+{
+  "language": "php",
+  "php": 7.2,
+  "env": "COMPOSER_FLAGS=\"--prefer-lowest\"",
+  "before_script": [
+    "travis_retry composer self-update",
+    "travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist --dev"
+  ],
+  "script": [
+    "vendor/bin/phpunit"
+  ],
+  "group": "stable",
+  "dist": "trusty",
+  "os": "linux"
+}

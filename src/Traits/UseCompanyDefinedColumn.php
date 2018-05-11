@@ -14,7 +14,7 @@ trait UseCompanyDefinedColumn
             $office = $this->belongsToOffice();
         }
         $table_name = $this->getTable();
-        return OfficeBuilding::setWorkingOffice($office->id, function() use ($table_name){
+        return OfficeBuilding::visit($office->id, function() use ($table_name){
             return CompanyDefinedColumn::where('table_name', $table_name)->get();
         });
     }

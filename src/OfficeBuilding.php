@@ -43,7 +43,7 @@ class OfficeBuilding
     }
 
     //Set the office will work on.
-    public function setWorkingOffice($office_id, $cb = NULL)
+    public function visit($office_id, $cb = NULL)
     {
         $original_connection = $this->connection->get();
         $office = Office::findOrFail($office_id);
