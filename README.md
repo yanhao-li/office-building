@@ -2,7 +2,8 @@
   <img src="./logo.svg"/>
 </p>
 
-# Office Building &middot; [![Travis](https://img.shields.io/travis/yanhao-li/office-building.svg)](https://travis-ci.org/yanhao-li/office-building) ![license](https://img.shields.io/github/license/mashape/apistatus.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
+# Office Building
+[![Travis](https://img.shields.io/travis/yanhao-li/office-building.svg)](https://travis-ci.org/yanhao-li/office-building) ![license](https://img.shields.io/github/license/mashape/apistatus.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
 
 Office Building is an easy to use Laravel package to help you build the Multi-tenant SaaS with database-per-tenant.
 Support Laravel 5.3+
