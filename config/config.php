@@ -13,8 +13,8 @@ return [
 
     'global_connection' => env('DB_CONNECTION'),
 
-    //Define the structure of all office floor
+    //Define the boilerplate of office structure
     'office_migrations_path' => database_path('migrations/officebuilding'),
 
-    'company_definable_tables' => ['products', 'orders', 'order_items', 'order_item_shippings', 'companies']
+    'company_definable_tables' => []
 ];
