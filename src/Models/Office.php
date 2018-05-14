@@ -9,7 +9,8 @@ class Office extends Model {
     use UseGlobalConnection;
     
     public function getTable(){
-        return config('officebuilding.offices_table_name');
+        $model = config('officebuilding.office_model');
+        return $model::getTable();
     }
     
 }

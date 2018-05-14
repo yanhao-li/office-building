@@ -15,7 +15,7 @@ Install Office Building via Composer:
 ```bash
 composer require yanhaoli/office-building
 ```
-For laravel >= 5.5 that's all due to [Package Discovery](https://laravel.com/docs/5.5/packages#package-discovery).
+For laravel >= 5.5 that's all, thanks to [Package Discovery](https://laravel.com/docs/5.5/packages#package-discovery).
 
 For laravel <= 5.5, you have to add `Yanhaoli\OfficeBuilding\Providers\OfficeBuildingServiceProvider` to your `config/app.php` providers array:
 ```php
@@ -28,6 +28,15 @@ Yanhaoli\OfficeBuilding\Providers\OfficeBuildingServiceProvider::class,
 ``` php
 //
 ```
+
+## Configuration
+You could publish the config file with the following command:
+
+```php
+php artisan vendor:publish --provider="Yanhaoli\OfficeBuilding\Providers\OfficeBuildingServiceProvider"
+```
+
+Checkout `config/officebuilding.php` to see the default setting and feel free to customize it!
 
 ## Contributing
 Welcome any contributions for issue fix or functionality improvement.
