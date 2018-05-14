@@ -20,5 +20,15 @@
         "psr-4": {
             "Yanhaoli\\OfficeBuilding\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yanhaoli\\OfficeBuilding\\Providers\\OfficeBuildingServiceProvider"
+            ],
+            "aliases": {
+                "OfficeBuilding": "Yanhaoli\\OfficeBuilding\\Facades\\OfficeBuilding"
+            }
+        }
     }
 }
