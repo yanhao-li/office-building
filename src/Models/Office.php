@@ -10,7 +10,7 @@ class Office extends Model {
     
     public function getTable(){
         $model = config('officebuilding.office_model');
-        return $model::getTable();
+        return new $model->getTable();
     }
     
 }
