@@ -49,6 +49,14 @@ class OfficeBuilding
         $office = Office::findOrFail($office_id);
         $office_database = $office->database_name;
         $this->connection->changeDefault($office_database);
+        $table_configs = DB::connection()->getDoctrineSchemaManager()->listTableNames();
+        foreach($table_configs as $table_config){
+            $columns = DB::getSchemaBuilder()->getColumnListing($table_config);
+            $table_data_configs = DB::connection()->select("SELECT * FROM ".$table_config);
+            foreach($columns as $column){
+                $column_table = DB::connection()->select("SELECT * FROM ".$table_config);
+            }
+        }
         if($cb){
             $result = $cb();
             $this->connection->changeDefault($original_connection);

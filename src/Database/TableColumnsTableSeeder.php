@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class TableColumnsTableSeeder extends Seeder
-{
+{ 
     /**
      * Run the database seeds.
      *

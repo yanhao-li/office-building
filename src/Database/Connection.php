@@ -71,14 +71,6 @@ class Connection
     public function changeDefault($connection_name)
     {
         $this->config($connection_name);
-        $table_configs = DB::connection()->getDoctrineSchemaManager()->listTableNames();
-        foreach($table_configs as $table_config){
-            $columns = DB::getSchemaBuilder()->getColumnListing($table_config);
-            $table_data_configs = DB::select("SELECT * FROM ".$table_config);
-            foreach($columns as $column){
-                $column_table = DB::select("SELECT * FROM ".$table_config);
-            }
-        }
         config(['database.default' => $this->connection]);
     }
 
